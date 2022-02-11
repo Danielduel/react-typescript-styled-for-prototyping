@@ -16,4 +16,5 @@ Added:
 Changed:
 - default imports are using doublequotes - my personal preference
 - removed autoopening project on start (see .env file)
+- change unused expression error to be warn
 
