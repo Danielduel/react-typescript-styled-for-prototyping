@@ -5,7 +5,6 @@ const HiStyled = styled.div`
   color: red;
 `;
 const App = () => {
-  const a = "unused";
   return <HiStyled>Hi</HiStyled>;
 };
 export default App;
