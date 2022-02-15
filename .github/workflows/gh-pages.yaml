@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: yarn build
         env:
-          # Set serving root to gh-page subroute (I belive it is ALWAYS the repo name
+          # Set serving root to gh-page subroute (I belive it is ALWAYS the repo name)
           # Could be wrong tho...
           PUBLIC_URL: "/${{ github.event.repository.name }}/"
       - name: Deploy 🚀
