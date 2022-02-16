@@ -22,7 +22,8 @@
     "local": "BACKEND_TYPE=local react-app-rewired start",
     "build": "react-scripts build",
     "test": "echo removed react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-template": "update-template https://github.com/Duelsik/react-typescript-styled-for-prototyping" 
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "update-template": "^1.3.1"
   }
 }
